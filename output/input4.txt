@@ -1,0 +1,27 @@
+9
+-Q OR T
+R
+Q OR S
+-S OR T
+Q OR U
+R OR S OR U
+-P
+Q OR R OR U
+P OR R
+12
+T
+R OR S
+T OR U
+R OR U
+R OR T OR U
+Q OR T
+P OR T
+Q OR R
+Q
+S OR T OR U
+Q OR T OR U
+S OR T
+1
+R OR T
+0
+NO

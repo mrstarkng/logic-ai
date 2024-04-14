@@ -123,10 +123,10 @@ if __name__ == "__main__":
         if not exists(OUTPUT):
             mkdir(OUTPUT)
 
-        for filename in files:
+        for i in range(len(files)):
             output = []
-            input_file = f"{INPUT}/{filename}"
-            output_file = f"{OUTPUT}/{filename}"
+            input_file = INPUT + '/' + files[i]
+            output_file = input_file.replace(INPUT, OUTPUT)
 
             # reading input file
             with open(input_file) as file:

@@ -5,4 +5,4 @@ R OR -S
 P OR T
 -Q OR -R
 -T OR U
-R OR T
+Q 

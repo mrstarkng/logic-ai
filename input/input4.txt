@@ -1,8 +1,14 @@
--S OR U
-6
-P OR Q
-Q OR S OR U
--Q OR R
--R OR T
--P OR U
-R OR -S
+H
+12
+-A OR C
+-B OR E
+-A OR D
+-B OR D
+-A OR -E OR -D OR F
+-E OR B
+-E OR C
+-A OR F OR -G
+-A OR F OR H
+-E OR -F OR H
+E
+F

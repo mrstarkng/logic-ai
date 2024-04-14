@@ -1,30 +1,29 @@
-8
-Q OR -T
-B OR -R OR U
+11
+R OR S OR U
 -Q OR U
 T
-T OR U
--P OR R
-R OR S OR U
--R
-14
--R OR U
-R OR U
-Q
-Q OR S OR U
--P OR Q
--T OR U
--P
-B OR -P OR U
-B OR -T OR U
-S OR U
-Q OR U
 B OR S OR U
--T
-R
-4
--P OR U
+S
+-P OR R
+T OR U
+B OR -R OR U
+-R
+Q OR -T
+Q
+15
+B OR -P OR U
+S OR U
 B OR U
-U
 {}
+-P OR Q
+R
+Q OR U
+-P
+-T OR U
+B OR -T OR U
+-R OR U
+-T
+Q OR S OR U
+U
+R OR U
 YES

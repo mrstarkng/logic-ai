@@ -1,27 +1,48 @@
-9
--Q OR T
--S OR T
--P
-P OR R
-Q OR R OR U
-Q OR U
-Q OR S
-R OR S OR U
-R
-12
-S OR T
-Q OR T
-R OR U
-Q
-R OR S
-Q OR R
-P OR T
-R OR T OR U
-S OR T OR U
-T
-T OR U
-Q OR T OR U
-1
-R OR T
-0
-NO
+16
+-A OR F
+-A OR -B OR -D OR F
+D OR -E
+-A OR -D OR -E OR H
+-F OR H
+B
+-A OR -E OR F
+-B OR C
+-A OR -D OR F
+-E OR -F
+-A OR -E OR -G OR H
+-A OR -B OR -E OR F
+-E OR H
+-A OR -E OR H
+-B OR -F OR H
+C
+20
+-A OR -G OR H
+-B OR -F
+-A OR -E OR -G
+-F
+-A OR -D OR -E
+-A OR -E
+-A OR -D OR H
+D
+-A OR -B OR F
+-A OR H
+-A OR -B OR -E
+-A OR -B OR -G OR H
+-A OR -B OR H
+-B OR H
+-E
+H
+-A OR -B OR -E OR H
+-A OR -B OR -D OR -E
+-A OR -B OR -D OR H
+-A OR -B OR -D OR -E OR H
+8
+-A OR -G
+-A OR -B
+-A OR -B OR -D
+-A
+{}
+-B
+-A OR -D
+-A OR -B OR -G
+YES

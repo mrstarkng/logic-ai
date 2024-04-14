@@ -1,5 +1,5 @@
 -P OR Q
-7
+8
 S OR T OR U
 Q OR -R
 -P OR T
@@ -7,3 +7,4 @@ Q OR -R
 R OR -T
 -S
 B OR -Q OR U
+Q OR S

@@ -1,4 +1,4 @@
-# [HCMUS_AI] PROJECT 2 PROPOSITIONAL LOGIC
+# [Introduc to AI] PROJECT 2 PROPOSITIONAL LOGIC
 
 Solution for logic chapter project and Resolution Algorithm Implementation
 

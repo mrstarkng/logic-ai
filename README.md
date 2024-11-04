@@ -4,5 +4,8 @@ Solution for logic chapter project and Resolution Algorithm Implementation
 
 Lecturer, Supervisor: Bui Duy Dang
 
-Student: Nguyen Le Hung
-ID: 22127135
+| Student Name    | ID       |
+|------------------|----------|
+| Nguyen Le Hung   | 22127135 |
+| Tran Van Quyet | 21127680 |
+

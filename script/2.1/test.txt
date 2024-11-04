@@ -1,0 +1,42 @@
+1. Ai là cha của Prince William?
+?- father(X, prince_william).
+2. Ai là anh/chị em ruột của Prince Harry?
+?- sibling(prince_harry, Y).
+3. Tìm tất cả các phụ nữ trong gia đình Hoàng gia Anh .
+?- female(X).
+4. Ai là vợ của Prince Edward?
+?- wife(X, prince_edward).
+5. Những người con của Prince William là ai?
+?- child(X, prince_william).
+6. Tìm tất cả chị/em gái.
+?- sibling(X, Y), female(X).
+7. Tìm tất cả người chồng.
+?- married(X, Y), female(Y).
+8. Tìm những bố bố con là con trai.
+?- father(Parent, Child), male(Child).
+9. Tìm tất cả cô/dì trong gia đình Hoàng gia Anh.
+?- aunt(X, Y).
+10. Tìm tất cả các nam trong gia đình.
+?- male(X).
+11. Tìm tất cả chú/bác trong gia đình Hoàng gia Anh.
+?- uncle(X, Y).
+12. Liệt kê tất cả nephew của Prince Charles.
+?- nephew(X, prince_charles).
+13. Liệt kê tất cả niece của Prince Charles.
+?- niece(X, prince_charles).
+14. Ai là bà ngoại của Prince Louis?
+?- grandmother(Grandmother, prince_louis).
+15. Prince Geogre có bao nhiêu người anh/chị em ruột?
+?- findall(Sibling, sibling(prince_geogre, Sibling), Siblings), length(Siblings, Count).
+16. Nữ hoàng Elizabeth có phải là vợ của Mia Grace Tindall không?
+?- married(queen_elizabeth_ii, mia_grace_tindall).
+17. Ai là cha của Peter Phillips?
+?- father(Father, peter_phillips).
+18. Meghan Markle là vợ của ai?
+?- husband(X, meghan_markle).
+19. Các cặp cưới nhau trong gia đình?
+?- married(X, Y), male(X).
+20. Liệt kê các cháu nội trai của Queen Elizabeth II.
+?- grandson(GS, queen_elizabeth_ii), mother(queen_elizabeth_ii, Father), father(Father, GS).
+21. Liệt kê các cháu ngoại gái của Queen Elizabeth II.
+?- granddaughter(GD, queen_elizabeth_ii), mother(queen_elizabeth_ii, Mother), mother(Mother, GD).

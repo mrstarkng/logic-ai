@@ -1,0 +1,42 @@
+1. Mrs Jones dạy những lớp nào?
+?- classes_taught_by_teacher(mrs_jones, Classes).
+2. Liệt kê giáo viên nữ của trường.
+?- female_teacher(Teacher).
+3. Tính điểm trung bình của lớp Toán, môn Toán.
+?- class_average_grade(math_class, math, AverageGrade).
+4. Liệt kê tất cả các học sinh tham gia một hoạt động ngoại khóa cụ thể(ví dụ: football).
+?- students_participating_in_activity(Activity, Students).
+5. Liệt kê tất cả học sinh trong một lớp học cụ thể(ví dụ math_class) và môn học cụ thể(math) có điểm số cao hơn một ngưỡng nhất định.(ví dụ 75)
+?- students_in_class_with_grade_above(math_class, math, 75, Students).
+6. Những ai dạy môn tiếng Anh?
+?- teachers_teaching_subject(english, Teachers).
+7. John tham gia những hoạt động nào ở trường?
+?- student_activities(john, Activities).
+8. Emma có điểm trung bình môn Toán cao hơn điểm trung bình môn Toán của cả lớp không?
+?- student_grade_above_average(emma, math).
+9. Liệt kê học sinh nữ của trường.
+?- female_student(Student).
+10. Emma đã đậu những môn gì?
+?- passed_subjects(emma, PassedSubjects).
+11. Điểm trung bình môn sinh học của lớp Mr Brown?
+?- teacher_average_grade(mr_brown, science, AverageGrade).
+12. Charlie đang tham gia mấy hoạt động?
+?- student_activities_count(charlie, Count).
+13. Danh sách học sinh đang tham gia lớp Toán.
+?- class_roster(math_class, Roster).
+14. Ai đang dạy từ 2 môn trở lên?
+?- teaches_multiple_subjects(Teacher).
+15. Những học sinh nào cần gia sư ở môn tiếng Anh?
+?- needs_tutoring(Student, english).
+16. Logan đã đăng ký những môn nào?
+?- enrolled(logan, Subject).
+17. Ở trường có những lớp học nào?
+?- class(Class, _).
+18. Có những môn học nào?
+?- subject(Subject).
+19. Lớp sinh học hiện tại gồm bao nhiêu học sinh?
+?- class_size(science_class, Size).
+20. Điểm của tất cả các môn học của Emma?
+?- student_grades(emma, Grades).
+21. Điểm trung bình tất cả các môn của John?
+?- student_average_grade(john, AverageGrade).
